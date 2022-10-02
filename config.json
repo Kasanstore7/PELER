@@ -1,19 +1,19 @@
 {
-  "contactOwner": "628817839722",
-  "ownerNumber": ["628817839722@s.whatsapp.net"],
-  "botName": "VelzzyBOT-MDོ",
-  "ownerName": "RonzzOfcོ",
+  "contactOwner": "6283834558105",
+  "ownerNumber": ["6283834558105@s.whatsapp.net"],
+  "botName": "BOT-LEXXY",
+  "ownerName": "Lexxy Ongpicial",
   "pathimg": "./temp/logo.jpg",
-  "footer": "VelzzyBOT-MDོ © RonzzOfcོ",
+  "footer": "NEOBOT © 2022",
   "apikey": "c34aebf5f6314445fae014b8bcc3cec9f8327d96d5b429f0e0570d152c4207bf",
   "payment": {
     "gopay": {
-      "nomer": "08817839722",
-      "atas_nama": "Ronzz Ofc"
+      "nomer": "no found",
+      "atas_nama": "no found"
     },
     "dana": {
-      "nomer": "628817839722",
-      "atas_nama": "Ronzz YT"
+      "nomer": "6285789004732",
+      "atas_nama": "Febri Pratama"
     }
   }
 }
