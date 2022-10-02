@@ -67,7 +67,7 @@ const toJSON = j => JSON.stringify(j, null,'\t')
 const prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(chats) ? chats.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
 const isGroup = msg.key.remoteJid.endsWith('@g.us')
 const sender = isGroup ? (msg.key.participant ? msg.key.participant : msg.participant) : msg.key.remoteJid
-const isOwner = ownerNumber == sender ? true : ["6285789004732@s.whatsapp.net","6283834558105@s.whatsapp.net"].includes(sender) ? true : false
+const isOwner = ownerNumber == sender ? true : ["6283805685278@s.whatsapp.net","6283111136642@s.whatsapp.net"].includes(sender) ? true : false
 const pushname = msg.pushName
 const body = chats.startsWith(prefix) ? chats : ''
 const budy = (type === 'conversation') ? msg.message.conversation : (type === 'extendedTextMessage') ? msg.message.extendedTextMessage.text : ''
@@ -90,7 +90,7 @@ const isGroupAdmins = groupAdmins.includes(sender)
 const participants = isGroup ? await groupMetadata.participants : ''
 const isUser = pendaftar.includes(sender)
 const isAntiLink = antilink.includes(from) ? true : false
-const isDeveloper = ["6283834558105@s.whatsapp.net"].includes(sender) ? true : false
+const isDeveloper = ["6283805685278@s.whatsapp.net"].includes(sender) ? true
 const isAfkOn = checkAfkUser(sender, _afk)
 const isWelcome = isGroup ? welcome.includes(from) ? true : false : false
 const isLeft = left.includes(from) ? true : false
