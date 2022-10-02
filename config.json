@@ -1,19 +1,19 @@
 {
-  "contactOwner": "6283834558105",
-  "ownerNumber": ["6283834558105@s.whatsapp.net"],
-  "botName": "BOT-LEXXY",
-  "ownerName": "Lexxy Ongpicial",
+  "contactOwner": "6283805685278",
+  "ownerNumber": ["6283805685278@s.whatsapp.net"],
+  "botName": "SaxiaBotz",
+  "ownerName": "Mrcl OFC",
   "pathimg": "./temp/logo.jpg",
-  "footer": "NEOBOT © 2022",
+  "footer": "Made by: ©SaxiaBotz",
   "apikey": "c34aebf5f6314445fae014b8bcc3cec9f8327d96d5b429f0e0570d152c4207bf",
   "payment": {
     "gopay": {
-      "nomer": "no found",
-      "atas_nama": "no found"
+      "nomer": "Cht owner",
+      "atas_nama": "---"
     },
     "dana": {
-      "nomer": "6285789004732",
-      "atas_nama": "Febri Pratama"
+      "nomer": "Cht owner",
+      "atas_nama": "---"
     }
   }
 }
