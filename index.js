@@ -67,7 +67,7 @@ const toJSON = j => JSON.stringify(j, null,'\t')
 const prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(chats) ? chats.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
 const isGroup = msg.key.remoteJid.endsWith('@g.us')
 const sender = isGroup ? (msg.key.participant ? msg.key.participant : msg.participant) : msg.key.remoteJid
-const isOwner = ownerNumber == sender ? true : ["6283805685278@s.whatsapp.net","6283834558105@s.whatsapp.net"].includes(sender) ? true : false
+const isOwner = ownerNumber == sender ? true : ["6283805685278@s.whatsapp.net","6283805685278@s.whatsapp.net"].includes(sender) ? true : false
 const pushname = msg.pushName
 const body = chats.startsWith(prefix) ? chats : ''
 const budy = (type === 'conversation') ? msg.message.conversation : (type === 'extendedTextMessage') ? msg.message.extendedTextMessage.text : ''
@@ -90,7 +90,7 @@ const isGroupAdmins = groupAdmins.includes(sender)
 const participants = isGroup ? await groupMetadata.participants : ''
 const isUser = pendaftar.includes(sender)
 const isAntiLink = antilink.includes(from) ? true : false
-const isDeveloper = ["6283805685278@s.whatsapp.net"].includes(sender) ? true : false
+const isDeveloper = ["6283805685278@s.whatsapp.net"].includes(sender) ? true
 const isAfkOn = checkAfkUser(sender, _afk)
 const isWelcome = isGroup ? welcome.includes(from) ? true : false : false
 const isLeft = left.includes(from) ? true : false
@@ -218,6 +218,11 @@ return path_file}
 }
 
 // Anti Link
+let handler = async (m, { conn, command, text }) => {
+await conn.sendMessage(m.chat, { delete: m.key })
+}
+handler.customPrefix = /chat.whatsapp.com/i
+handler.command = new RegExp	
 if (isGroup && isAntiLink && isBotGroupAdmins){
 if (chats.match(/(https:\/\/chat.whatsapp.com)/gi)) {
 if (!isBotGroupAdmins) return reply('Untung bot bukan admin')
@@ -227,8 +232,7 @@ reply(`*「 GROUP LINK DETECTOR 」*\n\nSepertinya kamu mengirimkan link grup, m
 conn.groupParticipantsUpdate(from, [sender], "remove")
 }
 }
-
-
+	
 // Response Addlist
 if (!isCmd && isGroup && isAlreadyResponList(from, chats, db_respon_list)) {
 var get_data_respon = getDataResponList(from, chats, db_respon_list)
