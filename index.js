@@ -217,12 +217,7 @@ fs.writeFileSync(path_file, buffer)
 return path_file}
 }
 
-// Anti Link
-let handler = async (m, { conn, command, text }) => {
-await conn.sendMessage(m.chat, { delete: m.key })
-}
-handler.customPrefix = /chat.whatsapp.com/i
-handler.command = new RegExp	
+// Anti Link	
 if (isGroup && isAntiLink && isBotGroupAdmins){
 if (chats.match(/(https:\/\/chat.whatsapp.com)/gi)) {
 if (!isBotGroupAdmins) return reply('Untung bot bukan admin')
