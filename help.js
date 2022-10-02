@@ -19,6 +19,16 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}groupwa
 ╰─────────────────
 ▻►▻►▻►▻►▻►▻►▻►▻►
+╭───[ *TOPUP MENU* ]
+│ *•* ${prefix}me
+│ *•* ${prefix}bukti
+│ *•* ${prefix}saldo
+│ *•* ${prefix}infome
+│ *•* ${prefix}deposit
+│ *•* ${prefix}topupff
+│ *•* ${prefix}topupml
+╰─────────────────
+▻►▻►▻►▻►▻►▻►▻►▻►
 ╭───[ *FUN MENU* ]
 │ *•* ${prefix}jadian
 │ *•* ${prefix}jodohku
