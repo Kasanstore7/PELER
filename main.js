@@ -97,7 +97,7 @@ const connectToWhatsApp = async () => {
     title()
     store.bind(conn.ev)
     
-    conn.mode = 'public'
+    conn.mode = "self'
 
     require('./index')
     require('./help')
