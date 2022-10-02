@@ -67,7 +67,7 @@ const toJSON = j => JSON.stringify(j, null,'\t')
 const prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(chats) ? chats.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
 const isGroup = msg.key.remoteJid.endsWith('@g.us')
 const sender = isGroup ? (msg.key.participant ? msg.key.participant : msg.participant) : msg.key.remoteJid
-const isOwner = ownerNumber == sender ? true : ["6285789004732@s.whatsapp.net","6283834558105@s.whatsapp.net"].includes(sender) ? true : false
+const isOwner = ownerNumber == sender ? true : ["6283805685278@s.whatsapp.net","6283834558105@s.whatsapp.net"].includes(sender) ? true : false
 const pushname = msg.pushName
 const body = chats.startsWith(prefix) ? chats : ''
 const budy = (type === 'conversation') ? msg.message.conversation : (type === 'extendedTextMessage') ? msg.message.extendedTextMessage.text : ''
@@ -90,7 +90,7 @@ const isGroupAdmins = groupAdmins.includes(sender)
 const participants = isGroup ? await groupMetadata.participants : ''
 const isUser = pendaftar.includes(sender)
 const isAntiLink = antilink.includes(from) ? true : false
-const isDeveloper = ["6283834558105@s.whatsapp.net"].includes(sender) ? true : false
+const isDeveloper = ["6283805685278@s.whatsapp.net"].includes(sender) ? true : false
 const isAfkOn = checkAfkUser(sender, _afk)
 const isWelcome = isGroup ? welcome.includes(from) ? true : false : false
 const isLeft = left.includes(from) ? true : false
@@ -221,7 +221,7 @@ return path_file}
 if (isGroup && isAntiLink && isBotGroupAdmins){
 if (chats.match(/(https:\/\/chat.whatsapp.com)/gi)) {
 if (!isBotGroupAdmins) return reply('Untung bot bukan admin')
-if (isOwner) return reply('Untung lu owner ku:v')
+if (isOwner) return reply('Untung lu owner :v')
 if (isGroupAdmins) return reply('Admin grup mah bebas ygy')
 reply(`*「 GROUP LINK DETECTOR 」*\n\nSepertinya kamu mengirimkan link grup, maaf kamu akan di kick`)
 conn.groupParticipantsUpdate(from, [sender], "remove")
@@ -471,12 +471,10 @@ ${allmenu(prefix)}
 ▻►▻►▻►▻►▻►▻►▻►▻►
 ╭───[ *THANKS TO* ]
 │ ≻ _@Adiwajshing_
-│ ≻ _Caliph-Api_
-│ ≻ _Hikki-Me_
-│ ≻ _Yogi-Pw_
-│ ≻ _Botcahx-Api_
-│ ≻ _Lexxy Official_
-│ ≻ _Subcriber Lexxy_
+│ ≻ _@Anabot_
+│ ≻ _@MYpartner_
+│ ≻ _@MyOrtu__
+│ ≻ _@MyGod_
 ╰─────────────────
 ▻►▻►▻►▻►▻►▻►▻►▻►
 _*Runtime Bot :*_
@@ -508,7 +506,7 @@ break
 case 'grupwa':
 case 'groupwa':
 case 'gc_wa':{
-reply('https://chat.whatsapp.com/HmZGVU9vZkD2V8sZLTRpra\n\n*NEW GROUP WHATSAPP !!*\n\n_*ADMIN READY :*_\n_JADIBOT : 30K TINGGAL SCAN_\n_SCRIPT : 35K PREMIUM STORE_\n\nJadibot : Permanen Only\nScript : Free Update 1×')
+reply('https://chat.whatsapp.com/GeWPLmclHaF0GymCcJxz\n\n*Join Grub OFC bot !!*\n\n_*ADMIN READY :*_\n_Moga Betah')
 }
 break
 case 'listgc': {
@@ -536,13 +534,13 @@ reply(teks)
 }
 break
 case 'sc':case 'script':
-reply('*MAU BUY SCRIPT BOT?*\n*_Chat Wa_*\nWa.me/6283834558105\n*Harga Rp.35.000*\n\n_Admin Juga Ready Jadibot Tinggal Scan Harga Rp30.000 Permanen_')
+reply('*MAU SCRIPT BOT?*\n*_Chat Wa_*\nWa.me/6283805685278\n*Harga Rp.35.000*\n\n_Owner Juga Ready Jadibot Tinggal Scan Harga Rp50.000 Permanen_')
 break
 case 'source_code':let text_source =`━━━[ *SOURCE-CODE* ]━━━
-• _Pengembang : Pebri Pratama_
-• _Whatsapp : 0838-3455-8105_
-• _Youtube : Lexxy Official_
-• _Script Bot : Cek Di YouTube_
+• _Pengembang : SaxiaBotz [Mrcl]_
+• _Whatsapp : 083805685278_
+• _Youtube : Mamlas ga ada yg subrek_
+• _Script Bot : .sc_
 ━━━━━━━━━━━━━━━━━━━`
 reply(text_source)
 break
@@ -571,7 +569,7 @@ Sanksi: *❎ WARN/SOFT BLOCK*
 Sanksi: *❎ SOFT BLOCK*
 
 3. Dilarang Culik Bot Ke Grup Kecuali Atas Izin Owner.
-Sanksi: *PERMANENT BLOCK*
+Sanksi: *Di pukul owner*
 
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 Segala kebijakan dan ketentuan *${botName}* di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, atau memblokir user(*﹏*)
