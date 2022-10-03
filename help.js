@@ -8,7 +8,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}runtime
 │ *•* ${prefix}dashboard
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *OTHER MENU* ]
 │ *•* ${prefix}ping
 │ *•* ${prefix}simi
@@ -18,7 +18,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}script
 │ *•* ${prefix}groupwa
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *TOPUP MENU* ]
 │ *•* ${prefix}me
 │ *•* ${prefix}bukti
@@ -28,7 +28,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}topupff
 │ *•* ${prefix}topupml
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *FUN MENU* ]
 │ *•* ${prefix}jadian
 │ *•* ${prefix}jodohku
@@ -40,7 +40,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}siapakah
 │ *•* ${prefix}bagaimanakah
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *TOOLS MENU* ]
 │ *•* ${prefix}tts
 │ *•* ${prefix}isgd
@@ -55,7 +55,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}translate
 │ *•* ${prefix}kalkulator
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *BAILEYS MENU* ]
 │ *•* ${prefix}afk
 │ *•* ${prefix}react
@@ -63,7 +63,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}hidetag
 │ *•* ${prefix}towame
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *SET PROSES/DONE* ]
 │ *•* ${prefix}setdone
 │ *•* ${prefix}delsetdone
@@ -72,7 +72,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}delsetproses
 │ *•* ${prefix}changeproses
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *SET WELCOME/LEFT* ]
 │ *•* ${prefix}setleft
 │ *•* ${prefix}delleft
@@ -83,7 +83,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}getwelcome
 │ *•* ${prefix}changewelcome
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *STORE MENU* ]
 │ *•* ${prefix}list
 │ *•* ${prefix}addlist
@@ -95,7 +95,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}kurang
 │ *•* ${prefix}tambah
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *GROUP MENU* ]
 │ *•* ${prefix}left
 │ *•* ${prefix}add
@@ -116,7 +116,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}setppgrup
 │ *•* ${prefix}setnamegc
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *OWNER MENU* ]
 │ *•* ${prefix}bc
 │ *•* ${prefix}join
@@ -130,7 +130,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}setbiobot
 │ *•* ${prefix}broadcast
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *STALKER MENU* ]
 │ *•* ${prefix}igstalk
 │ *•* ${prefix}ffstalk
@@ -138,7 +138,7 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}npmstalk
 │ *•* ${prefix}githubstalk
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *VOKAL MENU* ]
 │ *•* ${prefix}hilih
 │ *•* ${prefix}huluh
@@ -146,14 +146,14 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}holoh
 │ *•* ${prefix}halah
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *INFORMATION* ]
 │ *•* ${prefix}cuaca
 │ *•* ${prefix}kodepos
 │ *•* ${prefix}infogempa
 │ *•* ${prefix}covidworld
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *DOWNLOADER* ]
 │ *•* ${prefix}play
 │ *•* ${prefix}tiktok
@@ -164,22 +164,8 @@ return `▻►▻►▻►▻►▻►▻►▻►▻►
 │ *•* ${prefix}tiktokmp3
 │ *•* ${prefix}tiktoknowm
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *DEVELOPER* ]
-│ *•* ${prefix}jadibot [ only dev ]
 │ *•* ${prefix}bugfc [ options ] 
-│ *•* ${prefix}buggc [ options ]
-│ *•* ${prefix}spam [ reply bug ]
-│ *•* ${prefix}senbug [ bug pilihan ]
-│ *•* ${prefix}bugvip [ bug pilihan ]
-│ *•* ${prefix}bugpoll [ bug vote ]
-│ *•* ${prefix}bugtag [ bug tagall ]
-│ *•* ${prefix}catalog [ bug catalog ]
-│ *•* ${prefix}docu [ bug document ]
-│ *•* ${prefix}daca [ bug document ]
-│ *•* ${prefix}troli [ bug troli ]
-│ *•* ${prefix}troli2 [ bug troli 2 ]
-│ *•* ${prefix}bugstik [ bug stiker ]
-│ *•* ${prefix}buglokasi [ bug lokasi ]
 ╰─────────────────`
 }
