@@ -452,7 +452,7 @@ _sewa.expiredCheck(conn, sewa)
 // Console Logs
 if (isCmd && !fromMe) {console.log("[" + chalk.green(" CMD ") + "]" + chalk.yellow("=") + "[ " + chalk.green(`${pushname}`) + " ]" + chalk.yellow("=") + "[ " + chalk.green(`${prefix+command}`) + " ]" + chalk.yellow("=") + "[ " + chalk.green(`${jam}`) + " ]"  )}
 
-let teks_menu =`▻►▻►▻►▻►▻►▻►▻►▻►
+let teks_menu =`                 
 ╭───[ *${setting.botName}* ]
 │• Library : *Baileys-MD*.
 │•️ Waktu : ${tanggal}
@@ -461,14 +461,14 @@ let teks_menu =`▻►▻►▻►▻►▻►▻►▻►▻►
 │• Bot Name : ${botName}
 │• Pengguna : ${pendaftar.length}
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *INFO USER* ]
 │• Name : ${pushname}
 │• Tag : @${sender.split("@")[0]}
 │• Saldo : Rp${toRupiah(blnc.checkBalance(sender, balanceDB))}
 ╰─────────────────
 ${allmenu(prefix)}
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 ╭───[ *THANKS TO* ]
 │ ≻ _@Adiwajshing_
 │ ≻ _MyKomputer_
@@ -478,10 +478,10 @@ ${allmenu(prefix)}
 │ ≻ _AnaBot_
 │ ≻ _SaxiaBot_
 ╰─────────────────
-▻►▻►▻►▻►▻►▻►▻►▻►
+
 _*Runtime Bot :*_
 ${runtime(process.uptime())}
-▻►▻►▻►▻►▻►▻►▻►▻►`
+------------------`
 
 // INI CASE NYA
 switch(command) {
@@ -539,10 +539,10 @@ case 'sc':case 'script':
 reply('*MAU BUY SCRIPT BOT?*\n*_Chat Wa_*\nWa.me/6283805685278\n*Harga Rp.35.000*\n\n_Admin Juga Ready Jadibot Tinggal Scan Harga Rp50.000 Permanen_')
 break
 case 'source_code':let text_source =`━━━[ *SOURCE-CODE* ]━━━
-• _Pengembang : Pebri Pratama_
-• _Whatsapp : 0838-3455-8105_
-• _Youtube : Lexxy Official_
-• _Script Bot : Cek Di YouTube_
+• _Pengembang : SaxiaBot_
+• _Whatsapp : 6283805685278_
+• _Youtube : SaxiaBotz Official_
+• _Script Bot : ytta_
 ━━━━━━━━━━━━━━━━━━━`
 reply(text_source)
 break
@@ -696,7 +696,7 @@ if (!q) return reply('masukkan link nya')
 let aud = await api.downloader.tiktok(q)
 let cap_tt = ` *TIKTOK AUDIO*
 
-• *Creator:* Lexxy Official
+• *Creator:* SaxiaBot Official
 • *Title:* ${aud.title}
 • *Author:* ${aud.author}
 
