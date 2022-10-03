@@ -2,10 +2,10 @@
   "contactOwner": "6283805685278",
   "ownerNumber": ["6283805685278@s.whatsapp.net"],
   "botName": "SaxiaBotz",
-  "ownerName": "Mrcl OFC",
+  "ownerName": "Mrcl",
   "pathimg": "./temp/logo.jpg",
   "footer": "Made by: ©SaxiaBotz",
-  "apikey": "c34aebf5f6314445fae014b8bcc3cec9f8327d96d5b429f0e0570d152c4207bf",
+  "apikey": "cf4f574f0c76f9c191763c37952beaaa5c5ace2f188b240a2f7746557a01ea58",
   "payment": {
     "gopay": {
       "nomer": "Cht owner",
