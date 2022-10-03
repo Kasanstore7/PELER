@@ -67,7 +67,7 @@ const toJSON = j => JSON.stringify(j, null,'\t')
 const prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(chats) ? chats.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
 const isGroup = msg.key.remoteJid.endsWith('@g.us')
 const sender = isGroup ? (msg.key.participant ? msg.key.participant : msg.participant) : msg.key.remoteJid
-const isOwner = ownerNumber == sender ? true : ["6285789004732@s.whatsapp.net","6283834558105@s.whatsapp.net"].includes(sender) ? true : false
+const isOwner = ownerNumber == sender ? true : ["6283805685278@s.whatsapp.net","6283111136642@s.whatsapp.net"].includes(sender) ? true : false
 const pushname = msg.pushName
 const body = chats.startsWith(prefix) ? chats : ''
 const budy = (type === 'conversation') ? msg.message.conversation : (type === 'extendedTextMessage') ? msg.message.extendedTextMessage.text : ''
@@ -90,7 +90,7 @@ const isGroupAdmins = groupAdmins.includes(sender)
 const participants = isGroup ? await groupMetadata.participants : ''
 const isUser = pendaftar.includes(sender)
 const isAntiLink = antilink.includes(from) ? true : false
-const isDeveloper = ["6283834558105@s.whatsapp.net"].includes(sender) ? true : false
+const isDeveloper = ["6283805685278@s.whatsapp.net"].includes(sender) ? true : false
 const isAfkOn = checkAfkUser(sender, _afk)
 const isWelcome = isGroup ? welcome.includes(from) ? true : false : false
 const isLeft = left.includes(from) ? true : false
@@ -313,7 +313,7 @@ return conn.updateBlockStatus(sender, 'block')
 if (sender.startsWith('94')) {
 return conn.updateBlockStatus(sender, 'block')
 }
-if (sender.startsWith('60')) {
+if (sender.startsWith('213')) {
 return conn.updateBlockStatus(sender, 'block')
 }
                 // Response Deposit Button
@@ -471,12 +471,12 @@ ${allmenu(prefix)}
 ▻►▻►▻►▻►▻►▻►▻►▻►
 ╭───[ *THANKS TO* ]
 │ ≻ _@Adiwajshing_
-│ ≻ _Caliph-Api_
-│ ≻ _Hikki-Me_
-│ ≻ _Yogi-Pw_
-│ ≻ _Botcahx-Api_
-│ ≻ _Lexxy Official_
-│ ≻ _Subcriber Lexxy_
+│ ≻ _MyKomputer_
+│ ≻ _MyGod_
+│ ≻ _MyPartner_
+│ ≻ _PenyediaApi_
+│ ≻ _AnaBot_
+│ ≻ _SaxiaBot_
 ╰─────────────────
 ▻►▻►▻►▻►▻►▻►▻►▻►
 _*Runtime Bot :*_
@@ -508,7 +508,7 @@ break
 case 'grupwa':
 case 'groupwa':
 case 'gc_wa':{
-reply('https://chat.whatsapp.com/HmZGVU9vZkD2V8sZLTRpra\n\n*NEW GROUP WHATSAPP !!*\n\n_*ADMIN READY :*_\n_JADIBOT : 30K TINGGAL SCAN_\n_SCRIPT : 35K PREMIUM STORE_\n\nJadibot : Permanen Only\nScript : Free Update 1×')
+reply('https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz\n\n*NEW GROUP WHATSAPP !!*\n\n_*OWNER READY :*_\n_JADIBOT : 50K TINGGAL SCAN_\n_Open sewa!\n\nYok Gabung grub')
 }
 break
 case 'listgc': {
@@ -536,7 +536,7 @@ reply(teks)
 }
 break
 case 'sc':case 'script':
-reply('*MAU BUY SCRIPT BOT?*\n*_Chat Wa_*\nWa.me/6283834558105\n*Harga Rp.35.000*\n\n_Admin Juga Ready Jadibot Tinggal Scan Harga Rp30.000 Permanen_')
+reply('*MAU BUY SCRIPT BOT?*\n*_Chat Wa_*\nWa.me/6283805685278\n*Harga Rp.35.000*\n\n_Admin Juga Ready Jadibot Tinggal Scan Harga Rp50.000 Permanen_')
 break
 case 'source_code':let text_source =`━━━[ *SOURCE-CODE* ]━━━
 • _Pengembang : Pebri Pratama_
@@ -562,19 +562,19 @@ reply(`${pendaftar.length}`)
 }
 break
 case 'rules':
-let text_rules =`━━━「 *RULES-BOT* 」━━━
+let text_rules =`━━━「 *RULES-BOT DECK?* 」━━━
 
 1. Jangan Spam/Mengeksploitasi Bot
-Sanksi: *❎ WARN/SOFT BLOCK*
+Sanksi: *❎ BLOCK*
 
 2. Dilarang Tlpn/Vc Bot
-Sanksi: *❎ SOFT BLOCK*
+Sanksi: *❎ BLOCK*
 
 3. Dilarang Culik Bot Ke Grup Kecuali Atas Izin Owner.
-Sanksi: *PERMANENT BLOCK*
+Sanksi: *❎ Tampol Owner*
 
-Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
-Segala kebijakan dan ketentuan *${botName}* di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, atau memblokir user(*﹏*)
+Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk akses bot!
+Segala kebijakan dan ketentuan *${botName}* di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, atau memblokir user!!
 
 © Created by ${ownerName}`
 reply(text_rules)
@@ -671,9 +671,9 @@ case 'tiktoknowm':
 case 'tiktok':{
 if (!q) return reply('masukkan link nya')
 let p = await api.downloader.tiktok(q)
-let nih_cptiktok = ` *TIKTOK DOWNLOADER BY CRIZZY-BOT*
+let nih_cptiktok = ` *TIKTOK DOWNLOADER BY SAXIA-BOT*
 
-• *Creator:* Lexxy Official
+• *Creator:* Saxia Official
 • *Title:* ${p.title}
 • *Author:* ${p.author}
 
