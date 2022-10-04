@@ -1,10 +1,10 @@
 {
-  "contactOwner": "6283805685278",
-  "ownerNumber": ["6283805685278@s.whatsapp.net"],
+  "contactOwner": "6283805685278","6283192405363",
+  "ownerNumber": ["6283805685278@s.whatsapp.net"],["6283192405363@s.whatsapp.net"],
   "botName": "SaxiaBotz",
-  "ownerName": "Mrcl",
+  "ownerName": "Mrcl-O1","Kazn-O2",
   "pathimg": "./temp/logo.jpg",
-  "footer": "Made by: ©SaxiaBotz",
+  "footer": "Made by: ©SaxiaBotzV2",
   "apikey": "cf4f574f0c76f9c191763c37952beaaa5c5ace2f188b240a2f7746557a01ea58",
   "payment": {
     "gopay": {
