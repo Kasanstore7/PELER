@@ -7,7 +7,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}owner
 │ *•* ${prefix}runtime
 │ *•* ${prefix}dashboard
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *OTHER MENU* ]
 │ *•* ${prefix}ping
@@ -17,7 +17,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}listgc
 │ *•* ${prefix}script
 │ *•* ${prefix}groupwa
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *TOPUP MENU* ]
 │ *•* ${prefix}me
@@ -27,7 +27,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}deposit
 │ *•* ${prefix}topupff
 │ *•* ${prefix}topupml
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *FUN MENU* ]
 │ *•* ${prefix}jadian
@@ -39,7 +39,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}bisakah
 │ *•* ${prefix}siapakah
 │ *•* ${prefix}bagaimanakah
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *TOOLS MENU* ]
 │ *•* ${prefix}tts
@@ -54,7 +54,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}styletext
 │ *•* ${prefix}translate
 │ *•* ${prefix}kalkulator
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *BAILEYS MENU* ]
 │ *•* ${prefix}afk
@@ -62,7 +62,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}fitnah
 │ *•* ${prefix}hidetag
 │ *•* ${prefix}towame
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *SET PROSES/DONE* ]
 │ *•* ${prefix}setdone
@@ -71,7 +71,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}setproses
 │ *•* ${prefix}delsetproses
 │ *•* ${prefix}changeproses
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *SET WELCOME/LEFT* ]
 │ *•* ${prefix}setleft
@@ -82,7 +82,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}delwelcome
 │ *•* ${prefix}getwelcome
 │ *•* ${prefix}changewelcome
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *STORE MENU* ]
 │ *•* ${prefix}list
@@ -94,7 +94,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}bagi
 │ *•* ${prefix}kurang
 │ *•* ${prefix}tambah
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *GROUP MENU* ]
 │ *•* ${prefix}left
@@ -115,7 +115,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}promote
 │ *•* ${prefix}setppgrup
 │ *•* ${prefix}setnamegc
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *OWNER MENU* ]
 │ *•* ${prefix}bc
@@ -129,7 +129,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}setppbot
 │ *•* ${prefix}setbiobot
 │ *•* ${prefix}broadcast
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *STALKER MENU* ]
 │ *•* ${prefix}igstalk
@@ -137,7 +137,7 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}mlstalk
 │ *•* ${prefix}npmstalk
 │ *•* ${prefix}githubstalk
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *VOKAL MENU* ]
 │ *•* ${prefix}hilih
@@ -145,14 +145,14 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}heleh
 │ *•* ${prefix}holoh
 │ *•* ${prefix}halah
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *INFORMATION* ]
 │ *•* ${prefix}cuaca
 │ *•* ${prefix}kodepos
 │ *•* ${prefix}infogempa
 │ *•* ${prefix}covidworld
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *DOWNLOADER* ]
 │ *•* ${prefix}play
@@ -163,9 +163,9 @@ return `✥━━━━━━━━━━━━━━━━━━✥
 │ *•* ${prefix}mediafire
 │ *•* ${prefix}tiktokmp3
 │ *•* ${prefix}tiktoknowm
-╰─────────────────
+╰───────────────── ⳹
 
 ╭───[ *DEVELOPER* ]
 │ *•* ${prefix}bugfc [ options ] 
-╰─────────────────`
+╰───────────────── ⳹`
 }
