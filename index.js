@@ -466,7 +466,7 @@ let teks_menu =`
 │> Bot ini Free Join!!
 │Cht owner kode: (Add Bv2)
 │> Bot Fitur bnyk?
-│wa.me/623111136642
+│wa.me/6283111136642
 ╰───────────────── ⳹
 
 ╭───[ *INFO USER* ]
