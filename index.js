@@ -478,7 +478,7 @@ ${allmenu(prefix)}
 │ ≻ _AnaBot_
 │ ≻ _SaxiaBot_
 ╰─────────────────
-✥━━━━━━━━━━━━━━━━━━✥
+
 _*Runtime Bot :*_
 ${runtime(process.uptime())}
 ------------------`
