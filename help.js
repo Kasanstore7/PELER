@@ -1,5 +1,5 @@
 exports.allmenu = (prefix) => {
-return `▻►▻►▻►▻►▻►▻►▻►▻►
+return `✥━━━━━━━━━━━━━━━━━━✥
 ╭────[ *MAIN MENU* ]
 │ *•* ${prefix}db
 │ *•* ${prefix}tes
