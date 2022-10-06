@@ -460,13 +460,20 @@ let teks_menu =`
 │• Creator : ${ownerName}
 │• Bot Name : ${botName}
 │• Pengguna : ${pendaftar.length}
-╰─────────────────
+╰───────────────── ⳹
+
+╭───[ *INPO NIH* ]
+│> Bot ini Free Join!!
+│Cht owner kode: (Add Bv2)
+│> Bot Fitur bnyk?
+│wa.me/623111136642
+╰───────────────── ⳹
 
 ╭───[ *INFO USER* ]
 │• Name : ${pushname}
 │• Tag : @${sender.split("@")[0]}
 │• Saldo : Rp${toRupiah(blnc.checkBalance(sender, balanceDB))}
-╰─────────────────
+╰───────────────── ⳹
 ${allmenu(prefix)}
 
 ╭───[ *THANKS TO* ]
@@ -477,7 +484,7 @@ ${allmenu(prefix)}
 │ ≻ _PenyediaApi_
 │ ≻ _AnaBot_
 │ ≻ _SaxiaBot_
-╰─────────────────
+╰───────────────── ⳹
 
 _*Runtime Bot :*_
 ${runtime(process.uptime())}
