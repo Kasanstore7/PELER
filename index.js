@@ -223,7 +223,7 @@ if (chats.match(/(https:\/\/chat.whatsapp.com)/gi)) {
 if (!isBotGroupAdmins) return reply('Untung bot bukan admin')
 if (isOwner) return reply('Untung lu owner ku:v')
 if (isGroupAdmins) return reply('Admin grup mah bebas ygy')
-reply(`*「 GROUP LINK DETECTOR 」*\n\nSepertinya kamu mengirimkan link grup, maaf kamu akan di kick`)
+reply(`*「 BRO? SHARE LINK 」*\n\WAH AJG MAU NYULIK MEMBER D SINI Lu , maaf lo  akan di kick`)
 conn.groupParticipantsUpdate(from, [sender], "remove")
 }
 }
