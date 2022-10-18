@@ -543,7 +543,7 @@ reply(teks)
 }
 break
 case 'sc':case 'script':
-reply('*MAU BUY SCRIPT BOT?*\n*_Chat Wa_*\nWa.me/6283805685278\n*Harga Rp.35.000*\n\n_Admin Juga Ready Jadibot Tinggal Scan Harga Rp50.000 Permanen_')
+reply('*MAU BUY SCRIPT BOT?*\n*_Chat Wa_*\nWa.me/6285641142178\n*Harga Rp.35.000*\n\n_Admin Juga Ready Jadibot Tinggal Scan Harga Rp50.000 Permanen_')
 break
 case 'source_code':let text_source =`━━━[ *SOURCE-CODE* ]━━━
 • _Pengembang : Sanara-md_
