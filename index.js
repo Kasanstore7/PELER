@@ -466,7 +466,7 @@ let teks_menu =`
 │> Bot ini Free Join!!
 │Cht owner kode: (Add Bv2)
 │> Bot Fitur bnyk?
-│wa.me/6283111136642
+│Wa.me/79285725209
 ╰───────────────── ⳹
 
 ╭───[ *INFO USER* ]
@@ -478,7 +478,7 @@ ${allmenu(prefix)}
 
 ╭───[ *THANKS TO* ]
 │ ≻ _@Adiwajshing_
-│ ≻ _MyKomputer_
+│ ≻ _Sanara-md_
 │ ≻ _MyGod_
 │ ≻ _MyPartner_
 │ ≻ _PenyediaApi_
@@ -546,8 +546,8 @@ case 'sc':case 'script':
 reply('*MAU BUY SCRIPT BOT?*\n*_Chat Wa_*\nWa.me/6283805685278\n*Harga Rp.35.000*\n\n_Admin Juga Ready Jadibot Tinggal Scan Harga Rp50.000 Permanen_')
 break
 case 'source_code':let text_source =`━━━[ *SOURCE-CODE* ]━━━
-• _Pengembang : SaxiaBot_
-• _Whatsapp : 6283805685278_
+• _Pengembang : Sanara-md_
+• _Whatsapp : 6285641142178_
 • _Youtube : SaxiaBotz Official_
 • _Script Bot : ytta_
 ━━━━━━━━━━━━━━━━━━━`
@@ -583,7 +583,7 @@ Sanksi: *❎ Tampol Owner*
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk akses bot!
 Segala kebijakan dan ketentuan *${botName}* di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, atau memblokir user!!
 
-© Created by ${ownerName}`
+© Created by ${Kasan}`
 reply(text_rules)
 break
 case 'owner': case 'dev':
@@ -678,9 +678,9 @@ case 'tiktoknowm':
 case 'tiktok':{
 if (!q) return reply('masukkan link nya')
 let p = await api.downloader.tiktok(q)
-let nih_cptiktok = ` *TIKTOK DOWNLOADER BY SAXIA-BOT*
+let nih_cptiktok = ` *TIKTOK DOWNLOADER BY *KASAN-BOT*
 
-• *Creator:* Saxia Official
+• *Creator:* Kasan gans:v
 • *Title:* ${p.title}
 • *Author:* ${p.author}
 
@@ -703,7 +703,8 @@ if (!q) return reply('masukkan link nya')
 let aud = await api.downloader.tiktok(q)
 let cap_tt = ` *TIKTOK AUDIO*
 
-• *Creator:* SaxiaBot Official
+• *Creator:* KASAN-MD
+
 • *Title:* ${aud.title}
 • *Author:* ${aud.author}
 
