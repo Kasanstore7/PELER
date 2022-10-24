@@ -1,12 +1,12 @@
 {
   "contactOwner": "6285641142178",
   "ownerNumber": ["6285641142178@s.whatsapp.net"],
-  "botName": "Caca-Md",
+  "botName": "Saxia-MdV2",
   "ownerName": "Kasan",
   "pathimg": "./temp/logo.jpg",
-  "footer": "Made by: CacaBots",
+  "footer": "Made by: SaxiaMdV2",
   "apikey": "cf4f574f0c76f9c191763c37952beaaa5c5ace2f188b240a2f7746557a01ea58",
-  "payment": {
+  "payment": { 0
     "gopay": {
       "nomer": "Cht owner",
       "atas_nama": "---"
