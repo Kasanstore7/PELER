@@ -4,12 +4,12 @@
   "botName": "Saxia-MdV2",
   "ownerName": "Kasan",
   "pathimg": "./temp/logo.jpg",
-  "footer": "Made by: SaxiaMdV2",
+  "footer": "Made by: SaxiaMdV1",
   "apikey": "cf4f574f0c76f9c191763c37952beaaa5c5ace2f188b240a2f7746557a01ea58",
   "payment": { 0
     "gopay": {
-      "nomer": "Cht owner",
-      "atas_nama": "---"
+      "nomer": "082110711736",
+      "atas_nama": "KASAN SHOP GAME"
     },
     "dana": {
       "nomer": "Cht owner",
